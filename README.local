@@ -1,0 +1,16 @@
+
+dependencies
+============
+
+
+web3 : https://www.npmjs.com/package/web3
+  license: LGPL-3.0
+
+
+byte-base64 : https://www.npmjs.com/package/byte-base64
+  license: MIT
+
+
+cbor : https://github.com/paroga/cbor-js
+  license: MIT
+

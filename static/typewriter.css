@@ -1,0 +1,27 @@
+.typewriter {
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .1em solid pink;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    /* animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite; */
+    animation: typing 5s steps(42) 1s 1 normal both, blinking-cursor .5s step-end infinite;
+}
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+@keyframes blinking-cursor {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: pink;
+    }
+}
